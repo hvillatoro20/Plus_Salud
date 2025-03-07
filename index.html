@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Clínica Plus Salud</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>La Clínica Plus Salud</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#equipo">Equipo Médico</a></li>
+                    <li><a href="#horarios">Horarios</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Bienvenidos a La Clínica Plus Salud</h2>
+            <p>En La Clínica Plus Salud, tu bienestar es nuestra prioridad. Contamos con un equipo de especialistas altamente calificados y servicios integrales diseñados para brindarte atención médica de calidad en un ambiente cálido y profesional. Ya sea que necesites una consulta médica, apoyo psicológico, orientación nutricional o atención especializada, estamos aquí para cuidarte y acompañarte en cada paso hacia una vida más saludable. Tu salud es nuestra misión.</p>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2>Servicios</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Medicina Interna</h3>
+                    <p>Atención especializada en enfermedades crónicas y agudas.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Nutrición</h3>
+                    <p>Planes alimenticios personalizados para mejorar tu salud.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Odontología</h3>
+                    <p>Cuidado dental integral para toda la familia.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Ortopedia</h3>
+                    <p>Tratamiento y rehabilitación de lesiones musculoesqueléticas.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Medicamentos</h3>
+                    <p>Farmacia con los mejores productos para tu salud.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Psicología</h3>
+                    <p>Apoyo emocional y terapias psicológicas personalizadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Equipo Médico -->
+    <section id="equipo" class="team">
+        <div class="container">
+            <h2>Equipo Médico</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="Image1.jpg" alt="Dra. Rosa Sierra">
+                    <h3>Dra. Rosa Sierra</h3>
+                </div>
+                <div class="team-member">
+                    <img src="Image2.jpg" alt="Dr. Kevin Molina">
+                    <h3>Dr. Kevin Molina</h3>
+                </div>
+                <div class="team-member">
+                    <img src="Image3.jpg" alt="Dra. Alejandra Flores">
+                    <h3>Dra. Alejandra Flores</h3>
+                </div>
+                <div class="team-member">
+                    <img src="Image4.jpg" alt="Genesis Duron">
+                    <h3>Genesis Duron</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Horarios -->
+    <section id="horarios" class="hours">
+        <div class="container">
+            <h2>Horarios de Atención</h2>
+            <p>Lunes a Viernes: 6:30 am - 4:00 pm</p>
+            <p>Sábados y Domingos: 7:00 am - 12:00 pm</p>
+        </div>
+    </section>
+
+    <!-- Sección Ubicación -->
+    <section id="ubicacion" class="location">
+        <div class="container">
+            <h2>Ubicación</h2>
+            <p>Col. Las Minitas, Avenida Juan Lindo, Edificio Millenium II Health Center, Piso No. 3, Clínica No. 318</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d-87.123456!3d14.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDA3JzI0LjQiTiA4N8KwMDcnMjQuNCJX!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Nombre" required>
+                <input type="tel" id="phone" placeholder="Celular" required>
+                <input type="email" id="email" placeholder="Correo electrónico" required>
+                <textarea id="message" placeholder="Mensaje o consulta" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Botón de Chat -->
+    <button id="chat-button" class="chat-button">Chat</button>
+    <div id="chat-box" class="chat-box">
+        <div class="chat-header">
+            <h3>Chat de Soporte</h3>
+            <button id="close-chat">&times;</button>
+        </div>
+        <div class="chat-body">
+            <input type="text" id="chat-name" placeholder="Nombre">
+            <input type="tel" id="chat-phone" placeholder="Celular">
+            <input type="email" id="chat-email" placeholder="Correo electrónico">
+            <textarea id="chat-message" placeholder="Mensaje"></textarea>
+            <button id="send-chat">Enviar</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 La Clínica Plus Salud. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
